@@ -1,7 +1,10 @@
 new Vue({
   el: "#app",
   data: {
-    test: "tester"
+    firstName: "",
+    lastName: "",
+    age: "",
+    desc: ""
   },
   methods: {},
   computed: {}

@@ -24,6 +24,14 @@ body {
 }
 
 #preview {
+  text-align: center;
   margin-left: 10rem;
+}
+
+#preview #pfp {
+  height: 100px;
+  width: 100px;
+  background-color: #036ffc;
+  border-radius: 100%;
 }
 /*# sourceMappingURL=style.css.map */
