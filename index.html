@@ -21,8 +21,10 @@
         <span>Age:</span>
         <input type="number" min="0" v-model="age" />
         <span>A Bit About You:</span>
-        <textarea rows="10" v-model="desc"></textarea>
+        <textarea rows="10" maxlength="50" v-model="desc"></textarea>
       </div>
+
+      <span id="line"></span>
 
       <div id="preview">
         <h1>Profile Preview</h1>
@@ -30,7 +32,7 @@
         <!-- Profile Preview -->
         <img id="pfp" src="https://image.flaticon.com/icons/svg/74/74472.svg" />
         <h3>{{ firstName }} {{ lastName }}</h3>
-        <h3 v-if="age">{{ age }} years old</h3>
+        <h3 v-if="age && age != 0">{{ age }} years old</h3>
         <h3>{{ desc }}</h3>
       </div>
     </main>
