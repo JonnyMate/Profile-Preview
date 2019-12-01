@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Gupter&display=swap");
+
+body {
+  font-family: "Gupter", serif;
+}
+
+#app {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  h1 {
+    text-align: center;
+  }
+}
+
+#creation {
+  display: grid;
+}
+
+#preview {
+  margin-left: 10rem;
+}
