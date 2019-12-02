@@ -16,18 +16,20 @@ body {
   background-color: #fff;
   -webkit-box-shadow: 0px 10px 30px #333;
           box-shadow: 0px 10px 30px #333;
-  padding: 2rem 4rem 4rem 4rem;
+  padding: 2rem 4rem 2rem 4rem;
 }
 
 #app h1 {
   text-align: center;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #000;
 }
 
 #line {
   height: 24rem;
   width: 2px;
   background-color: #000;
-  margin: 0 5rem;
+  margin: auto 5rem;
 }
 
 #creation {
@@ -58,5 +60,12 @@ body {
   width: 100px;
   background-color: #8f8f8f;
   border-radius: 100%;
+}
+
+#about-you::after {
+  content: "(Max 50 characters)";
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+  color: #585858;
 }
 /*# sourceMappingURL=style.css.map */

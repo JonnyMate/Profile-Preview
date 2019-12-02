@@ -11,7 +11,7 @@
   <body>
     <main id="app">
       <div id="creation">
-        <h1>Create Your Profile</h1>
+        <h1 id="title">Create Your Profile</h1>
 
         <!-- Input Fields -->
         <span>First Name:</span>
@@ -20,14 +20,14 @@
         <input type="text" v-model="lastName" />
         <span>Age:</span>
         <input type="number" min="0" v-model="age" />
-        <span>A Bit About You:</span>
-        <textarea rows="10" maxlength="50" v-model="desc"></textarea>
+        <span id="about-you">A Bit About You:</span>
+        <textarea rows="5" maxlength="50" v-model="desc"></textarea>
       </div>
 
       <span id="line"></span>
 
       <div id="preview">
-        <h1>Profile Preview</h1>
+        <h1 id="title">Profile Preview</h1>
 
         <!-- Profile Preview -->
         <img id="pfp" src="https://image.flaticon.com/icons/svg/74/74472.svg" />
